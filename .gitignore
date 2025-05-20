@@ -1,0 +1,50 @@
+
+# Ignore all hidden folders
+.*/
+!.gitignore
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build and distribution directories
+dist/
+build/
+
+# Python dependencies
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# General development environment
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+*.codecov
+
+# Ignore virtual environment folders
+.venv/
+.env/
